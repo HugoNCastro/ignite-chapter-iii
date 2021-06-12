@@ -16,3 +16,6 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerFile));
 app.use(router);
 
 app.listen(3333);
+
+// eslint-disable-next-line no-console
+console.log('Server is running !!!');

@@ -10,7 +10,7 @@ interface IRequest {
 class CreateSpecificationUseCase {
   // eslint-disable-next-line no-useless-constructor
   constructor(
-    @inject('SpecificationsRepository')
+    @inject('SpecificationRepository')
     private specificationRepository: ISpecificationRepository,
   ) {}
 
